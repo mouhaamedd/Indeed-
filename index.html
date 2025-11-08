@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I’m Here</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0a0a0a, #1e1e1e);
+      color: #00ff9d;
+      font-family: "Poppins", sans-serif;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 5rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 0 20px #00ff9d;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #00ff9d, 0 0 20px #00ff9d, 0 0 30px #00ff9d;
+      }
+      to {
+        text-shadow: 0 0 20px #00ff9d, 0 0 40px #00ff9d, 0 0 60px #00ff9d;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>I’m here</h1>
+</body>
+</html>
